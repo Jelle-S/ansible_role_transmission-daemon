@@ -1,0 +1,7 @@
+---
+
+- name: restart transmission
+  systemd:
+    daemon_reload: yes
+    name: plexmediaserver
+    state: restarted

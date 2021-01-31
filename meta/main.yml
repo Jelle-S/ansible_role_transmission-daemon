@@ -1,0 +1,16 @@
+galaxy_info:
+  role_name: transmission-daemon
+  author: Jelle Sebreghts
+  description: Role to install transmission-daemon
+  license: license (MIT)
+  min_ansible_version: 2.1
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+
+  galaxy_tags: 
+    - transmission
+    - transmission-daemon
+
+dependencies: []
